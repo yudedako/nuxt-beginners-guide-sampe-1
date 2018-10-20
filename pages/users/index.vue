@@ -1,7 +1,17 @@
 <template>
   <div>
     <p>
-      /users/index.vue
+      User ID: {{ userId }}
     </p>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      userId: this.$route.params.id
+    }
+  }
+}
+</script>
