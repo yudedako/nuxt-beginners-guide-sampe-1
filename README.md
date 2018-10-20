@@ -1,3 +1,5 @@
+よく見たらレポジトリ名をtypoしてたorz
+
 # nuxt-beginners-guide-sampe-1
 
 > My swell Nuxt.js project
