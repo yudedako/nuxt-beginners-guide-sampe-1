@@ -33,13 +33,27 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/axios.js'
   ],
+
+  env: {
+    QIITA_TOKEN: process.env.QIITA_TOKEN
+  },
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
+
+    /*
+  ** Customize the progress bar color
+  */
+  loading: { color: '#3B8070' },
+  axios: {
+
+  },
 
   /*
   ** Build configuration
