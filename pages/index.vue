@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        nuxt-beginners-guide-sampe-1
+        Hello, world
       </h1>
       <h2 class="subtitle">
         My swell Nuxt.js project
